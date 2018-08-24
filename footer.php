@@ -46,7 +46,9 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 <?php endif; // ! is_page_template( 'page-template-blank.php' ) ?>
 
 	</div> <!-- #page-container -->
-
+<style>
+	#main-content { background: none; }
+</style>
 	<?php wp_footer(); ?>
 </body>
 </html>
