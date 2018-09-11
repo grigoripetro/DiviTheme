@@ -36,7 +36,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 						get_template_part( 'includes/social_icons', 'footer' );
 					}
 
-					echo et_get_footer_credits();
+					//echo et_get_footer_credits();
 				?>
 					</div>	<!-- .container -->
 				</div>
